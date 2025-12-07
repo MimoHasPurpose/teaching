@@ -6,7 +6,6 @@
 
 // notes:
 //  char value : 'a' ;
-
 //  string values: "abac";
 
 #include<stdio.h>
