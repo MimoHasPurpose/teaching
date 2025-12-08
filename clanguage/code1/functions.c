@@ -1,10 +1,8 @@
 #include<stdio.h>
 //  function declaration
-
 void print10(char [] ,char[]);
 int multiplication(int , int, int, int , int);
 void motivation();
-
 
 
 int main(){
@@ -16,8 +14,9 @@ return 0;
 
 }
 
-// function definition
 
+
+// function definition
 int multiplication(int a, int b, int c, int d, int e){
 return 2;
 }
