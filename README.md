@@ -1,4 +1,14 @@
 # teaching
-1. web-development
-2. python for ml
-3. machine learning->deep learning
+1. c-language
+    - refer c documentation, w3schools, or gfg.
+2. web-development
+    - refer mdn documentation
+3. python for ml
+    - scikit-learn
+    - numpy
+    - pandas
+    - scipy
+    - keras
+4. machine learning->deep learning
+    - refer pytorch documentation
+    
