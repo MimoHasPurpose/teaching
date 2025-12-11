@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-
 int main() {
   srand(time(NULL));  
   int score=0;
@@ -25,8 +23,6 @@ int main() {
         break;
     }
   }
-  
-  
   return 0;
 }
 
