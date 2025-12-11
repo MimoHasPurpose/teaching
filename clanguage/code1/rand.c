@@ -16,11 +16,11 @@ int main() {
         score=score+4;
         printf("\t\t\t\tu got a point! and your prediction and actual value are %d %d :: score is:: %d\n",num, guess,score);
     }else{
-        score=score-1;
+        score=score-2;
         printf("\t\t\t\twrong prediction\n");
     }
     if(score>10){
-        system("clear");
+        system("clear"); 
         printf(" ************************** you won brooo!**************************\n");
         break;
     }
@@ -29,4 +29,7 @@ int main() {
   
   return 0;
 }
+
+
+
 
