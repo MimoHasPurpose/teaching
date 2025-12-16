@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiment 41</title>
+    <script>
+        function checkEvenOdd() {
+            var num = document.getElementById("num").value;
+            if (num % 2 == 0) {
+                alert("Number is Even");
+            } else {
+                alert("Number is Odd");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Even or Odd Checker</h2>
+    <input type="number" id="num">
+    <button onclick="checkEvenOdd()">Check</button>
+</body>
+</html>

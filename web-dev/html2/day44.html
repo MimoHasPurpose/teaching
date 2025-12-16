@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiment 44</title>
+    <script>
+        function calculateArea() {
+            var length = document.getElementById("length").value;
+            var width = document.getElementById("width").value;
+            var area = length * width;
+            document.getElementById("result").innerHTML = "Area = " + area;
+        }
+    </script>
+</head>
+<body>
+    <h2>Area Calculator</h2>
+    Length: <input type="number" id="length"><br><br>
+    Width: <input type="number" id="width"><br><br>
+    <button onclick="calculateArea()">Calculate</button>
+    <p id="result"></p>
+</body>
+</html>
