@@ -27,5 +27,5 @@
 - numpy 2
 - numpy 3
 - pandas
--  go to machine learning folder!!
+- go to machine learning folder!!
 

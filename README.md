@@ -4,11 +4,15 @@
 2. web-development
     - refer mdn documentation
 3. python for ml
-    - scikit-learn
-    - numpy
-    - pandas
-    - scipy
-    - keras
+    - python
+        - basics
+        - oops
+    - ml
+        - scikit-learn
+        - numpy
+        - pandas
+        - scipy
+        - keras
 4. machine learning->deep learning
     - refer pytorch documentation
     
