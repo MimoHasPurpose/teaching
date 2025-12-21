@@ -1,3 +1,4 @@
+## Internals of python, installing libraries, list, tuple
 common errors:
 1. ModuleNotFoundError
 2. NameError
