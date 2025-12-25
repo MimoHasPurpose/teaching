@@ -2,8 +2,6 @@
 // 1. access values in strings
 // 2. modify values in strings
 // 3. loop through a string
-
-
 // notes:
 //  char value : 'a' ;
 //  string values: "abac";

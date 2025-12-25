@@ -7,6 +7,6 @@ age: 2
 name: kimiko
 id: 2
 age: 2
-name: smriti
+name: mimi
 id: 4
 age: 2

@@ -8,7 +8,7 @@ int main()
     char name[10];
     char id[4];
     char age[4];
-    fptr=fopen("smriti.txt","w");
+    fptr=fopen("sm.txt","w");
     int i=0;
     while(i<4)
     {
