@@ -1,27 +1,34 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 
-int main(){
+int main()
+{
     FILE *fptr;
-    char name[20];
+    char name[10];
     char id[4];
-    char rolln[4];
+    char age[4];
     fptr=fopen("smriti.txt","w");
-    while(true)
+    int i=0;
+    while(i<4)
     {
-        printf("enter name, id roolno: \n");
-        gets(name);
-        gets(id);
-        gets(age);
+        printf("enter name, id, roolno: \n");
+        scanf("%s",name);
+        scanf("%s",id);
+        scanf("%s",age);
         if(fptr!=NULL)
         {
+            fputs("name: ",fptr);
             fputs(name,fptr);
             fputs("\n", fptr);
+            fputs("id: ",fptr);
             fputs(id,fptr);
             fputs("\n", fptr);
-            fputs(rolln,fptr);
+            fputs("age: ",fptr);
+            fputs(age,fptr);
             fputs("\n", fptr);
         }
+        i++;
     }
     if(fptr==NULL)
     {

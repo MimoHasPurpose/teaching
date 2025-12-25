@@ -1,3 +1,12 @@
-smriti kaushal
-210
-21
+name: sanjay
+id: 2
+age: 2
+name: mimo
+id: 2
+age: 2
+name: kimiko
+id: 2
+age: 2
+name: smriti
+id: 4
+age: 2
