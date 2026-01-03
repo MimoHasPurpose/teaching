@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiment 38</title>
+    <script>
+        function validateForm() {
+            var name = document.getElementById("name").value;
+            if (name === "") {
+                alert("Name is required!");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h2>Required Field Validation</h2>
+    <form onsubmit="return validateForm()">
+        Name: <input type="text" id="name">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

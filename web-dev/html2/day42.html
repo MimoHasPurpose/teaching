@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiment 42</title>
+    <script>
+        function confirmSubmit() {
+            return confirm("Are you sure you want to submit?");
+        }
+    </script>
+</head>
+<body>
+    <h2>Confirm Before Submit</h2>
+    <form onsubmit="return confirmSubmit()">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

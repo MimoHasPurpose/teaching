@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiment 40</title>
+    <script>
+        function checkInput() {
+            var text = document.getElementById("text").value;
+            if (text === "") {
+                alert("Input field cannot be empty");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h2>Single Input Validation</h2>
+    <form onsubmit="return checkInput()">
+        <input type="text" id="text">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
